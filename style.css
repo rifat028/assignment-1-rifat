@@ -31,5 +31,12 @@
 }
 .action{
     display: flex;
+    align-items: center;
+    padding: 200px;
+    justify-content: space-between;
     
 }
+.action div img{
+    border: none;
+    border-radius: 40px;
+    }

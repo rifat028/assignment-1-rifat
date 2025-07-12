@@ -29,6 +29,12 @@
     border: none;
     cursor: pointer;
 }
+.btn:hover{
+    color: black;
+    font-weight: bold;
+    background-color: gold;
+    border: 2px solid black;
+}
 .action{
     display: flex;
     align-items: center;
@@ -40,3 +46,31 @@
     border: none;
     border-radius: 40px;
     }
+.productive_user{
+    padding: 30px 00px;
+    margin: 0px 200px;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+.review{
+    margin: 200px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;    
+}
+.card{
+    max-width: 320px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid blanchedalmond;
+}
+.card_footer{
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
